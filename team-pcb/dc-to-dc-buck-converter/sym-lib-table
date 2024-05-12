@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2596S-5_0_NOPB")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/KiCad/LM2596S-5_0_NOPB.kicad_sym")(options "")(descr ""))
+)

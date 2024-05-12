@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "team-pcb.kicad_prl",
+    "filename": "dc-to-dc-buck-converter.kicad_prl",
     "version": 3
   },
   "project": {

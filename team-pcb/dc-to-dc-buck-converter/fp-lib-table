@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/KiCad")(options "")(descr ""))
+)
