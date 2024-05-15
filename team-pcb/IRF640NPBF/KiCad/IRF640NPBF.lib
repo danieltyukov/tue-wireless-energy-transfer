@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IRF640NPBF
+#/360499/1337878/2.50/3/4/Undefined or Miscellaneous
+DEF IRF640NPBF U 0 30 Y Y 1 F N
+F0 "U" 850 300 50 H V L CNN
+F1 "IRF640NPBF" 850 200 50 H V L CNN
+F2 "TO254P483X1016X1994-3P" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/IRF640NPBF.pdf" 850 0 50 H I L CNN
+F4 "MOSFET N-Channel 200V 18A TO220AB Infineon IRF640NPBF N-channel MOSFET Transistor, 18 A, 200 V, 3-Pin TO-220AB" 850 -100 50 H I L CNN "Description"
+F5 "4.83" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "Farnell Part Number"
+F7 "" 850 -400 50 H I L CNN "Farnell Price/Stock"
+F8 "Infineon" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IRF640NPBF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X GATE 1 0 0 200 R 50 50 0 0 P
+X SOURCE 2 0 -100 200 R 50 50 0 0 P
+X DRAIN 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

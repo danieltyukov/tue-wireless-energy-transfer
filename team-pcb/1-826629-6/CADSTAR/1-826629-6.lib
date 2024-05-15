@@ -1,0 +1,16 @@
+.1-826629-6 :1 ;16w s/r straight pin header gold Mod II
+HDRV16W63P0X254_1X16_4064X250X950P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="12" 13="13" 14="14" 15="15" 16="16"
+*MXP 16
+*DFN 1-826629-6
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (1-826629-6)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/2082916.pdf)
+~!Height (9.5mm)
+~!3D_Model (1-826629-6)
+"1-826629-6"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

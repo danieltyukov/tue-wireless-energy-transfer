@@ -1,0 +1,16 @@
+.SW38-4 :1 ;AAVID / BOYD - SW38-4 - Heat Sink, TO-220/218, 10 C/W, TO-218, TO-220, TO-247, 34.5 mm, 38 mm, 12.5 mm
+SW384
+*STM U
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SW38-4
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Aavid Thermalloy)
+~!Manufacturer_Part_Number (SW38-4)
+~!Link Datasheet (-)
+~!Height (38mm)
+~!3D_Model (SW38-4)
+SW38-4
+1.1!U 2.1!U 

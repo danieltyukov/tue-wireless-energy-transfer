@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IRF640NPBF
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=2.2
+Released=2017-10-04 22:26:40
+Downloaded=2024-05-15 18:47:38
+3D=Y

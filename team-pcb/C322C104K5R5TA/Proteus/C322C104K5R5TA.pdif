@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C322C104K5R5TA"
+   (description "GoldMax 300 Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, GoldMax, Commercial Standard, 2.5 % , 10 GOhms, 5.08mm, 6.6mm, 3.18mm, Lead Spacing = 5.08mm, 7mm, 0.51mm, 500, 80")
+   (family "CAP")
+   (package "C322")
+   (attribute "Datasheet Link" "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf")
+   (attribute "Geometry.Height" "6.6mm")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "KEMET")
+   (attribute "Manufacturer_Part_Number" "C322C104K5R5TA")
+   (gate
+    (symbol "C322C104K5R5TA")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "C322C104K5R5TA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "C322"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -2.54 1.59)
+      (pt 2.54 1.59)
+      (pt 2.54 -1.59)
+      (pt -2.54 -1.59)
+      (pt -2.54 1.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -2.54 -1.59)
+      (pt 2.54 -1.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -2.54 1.59)
+      (pt 2.54 1.59))))
+   (leg 1 (pt -2.54 0) (padstack 0))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (padstack 0
+    (hole 0.71)
+    (plated true)
+    (pad (layer TCOP) (round 1.21))
+    (pad (layer INNER) (round 1.21))
+    (pad (layer BCOP) (round 1.21))
+   )
+   (model "C322C104K5R5TA.stp"
+    (euler 90 0 0)
+    (offset -2.5399999618530273 1.590000033378601 1.7200000286102295)
+   )
+  )
+ )
+)

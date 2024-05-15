@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EL7104CNZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-10-24-19:30:28)
+    (mountForm default
+        (footprintRef "DIP762W51P254L952H533Q8N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.EEUFC1J221S :1 ;Panasonic Aluminium Electrolytic Capacitor 220uF 63V dc 12.5mm FC Radial Series, Through Hole Electrolytic, +/-20%
+CAPPRD500W65D1250H2200
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN EEUFC1J221S
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EEUFC1J221S)
+~!Link Datasheet (http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf)
+~!Height (22mm)
+~!3D_Model (EEUFC1J221S)
+EEUFC1J221S
+1.1!U 2.1!U 

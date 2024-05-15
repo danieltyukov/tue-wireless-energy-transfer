@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EL7104CNZ
+#/1698544/1337878/2.50/8/2/Integrated Circuit
+DEF EL7104CNZ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "EL7104CNZ" 1050 200 50 H V L CNN
+F2 "DIP762W51P254L952H533Q8N" 1050 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/www/doc/datasheet/el7104.pdf" 1050 0 50 H I L CNN
+F4 "The EL7104 is a matched driver IC that improves the operation of the industry-standard TC-4420/29 clock drivers. The Elantec version is a very High-Speed driver capable of delivering peak currents of 1A into highly capacitive loads. The High-Speed performance is achieved by means of a proprietary Turbo-Driver circuit that speeds up input stages by tapping the wider voltage swing at the output. Improved speed and drive capability are enhanced by matched rise and fall delay times. These matched delays maintai" 1050 -100 50 H I L CNN "Description"
+F5 "5.334" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "Farnell Part Number"
+F7 "" 1050 -400 50 H I L CNN "Farnell Price/Stock"
+F8 "Renesas Electronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EL7104CNZ" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X V+_1 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X GND_1 4 0 -300 200 R 50 50 0 0 P
+X V+_2 8 1200 0 200 L 50 50 0 0 P
+X P_OUT 7 1200 -100 200 L 50 50 0 0 P
+X N_OUT 6 1200 -200 200 L 50 50 0 0 P
+X GND_2 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

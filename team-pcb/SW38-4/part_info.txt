@@ -1,0 +1,9 @@
+Manufacturer=Aavid Thermalloy
+PartNumber=SW38-4
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2020-03-04 10:27:22
+Downloaded=2024-05-15 20:20:15
+3D=Y

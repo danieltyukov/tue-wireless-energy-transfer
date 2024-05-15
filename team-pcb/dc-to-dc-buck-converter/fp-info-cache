@@ -1,4 +1,18 @@
-23335601144496184
+23347611980576789
+1-826629-6(pins)
+HDRV16W63P0X254_1X16_4064X250X950P
+1-826629-6
+Connector
+0
+2
+2
+1715721(screw connector)
+1715721
+1715721
+Connector
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2523,6 +2537,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C322C104K5R5TA(decoup capacitor)
+C322
+C322
+Capacitor
 0
 2
 2
@@ -55726,6 +55747,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EEUFC1J221S(capacitor)
+CAPPRD500W65D1250H2200
+EEUFC1J221S
+Capacitor Polarised
+0
+2
+2
+EL7104CNZ(voltage regulator)
+DIP762W51P254L952H533Q8N
+MDP0031
+Integrated Circuit
+0
+8
+8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -56902,6 +56937,13 @@ heatsink
 0
 0
 0
+IRF640NPBF(mosfet)
+TO254P483X1016X1994-3P
+TO-220AB
+Undefined or Miscellaneous
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -62383,13 +62425,6 @@ solder jumper open
 0
 5
 3
-KiCad
-KTT0005B
-KTT0005B
-Integrated Circuit
-0
-8
-8
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -63577,6 +63612,20 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+MBR10100+(diode)
+TO490P480X1000X2110-2P
+MBR10100+
+Schottky Diode
+0
+2
+2
+MF25_10R(resistor)
+RESAD1680W59L680D250
+MF25
+Resistor
 0
 2
 2

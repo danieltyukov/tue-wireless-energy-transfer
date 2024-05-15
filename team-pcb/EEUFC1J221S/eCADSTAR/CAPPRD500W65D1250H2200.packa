@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EEUFC1J221S"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-07-30-14:07:29)
+    (mountForm default
+        (footprintRef "CAPPRD500W65D1250H2200")
+        (spec "System")
+    )
+)

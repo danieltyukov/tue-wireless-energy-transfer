@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MBR10100_'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Multicomp Pro", "MBR10100+" (!) = "", "TO490P480X1000X2110-2P", "Transistor Outline, Vertical", "", "", "SCHOTTKY RECTIFIER, 10A, 100V, TO-220AC", "", "4.8 mm"
+END_PART
+
+END.

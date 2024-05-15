@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1715721
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2020-10-11 11:03:08
+Downloaded=2024-05-15 20:51:06
+3D=Y

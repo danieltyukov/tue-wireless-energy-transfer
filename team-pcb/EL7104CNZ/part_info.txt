@@ -1,0 +1,9 @@
+Manufacturer=Renesas Electronics
+PartNumber=EL7104CNZ
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=4.1
+Released=2019-12-08 14:58:37
+Downloaded=2024-05-15 19:54:04
+3D=Y

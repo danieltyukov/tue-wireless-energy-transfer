@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "C322"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "C322")
+        (spec "default")
+    )
+)

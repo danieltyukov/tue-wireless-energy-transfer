@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SW38_4'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Aavid Thermalloy", "SW38-4" (!) = "", "SW384", "Other", "", "", "AAVID / BOYD - SW38-4 - Heat Sink, TO-220/218, 10 C/W, TO-218, TO-220, TO-247, 34.5 mm, 38 mm, 12.5 mm", "", "38 mm"
+END_PART
+
+END.

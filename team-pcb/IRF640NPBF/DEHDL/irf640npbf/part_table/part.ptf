@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRF640NPBF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IRF640NPBF" (!) = "", "TO254P483X1016X1994-3P", "Transistor Outline, Vertical", "", "", "MOSFET N-Channel 200V 18A TO220AB Infineon IRF640NPBF N-channel MOSFET Transistor, 18 A, 200 V, 3-Pin TO-220AB", "https://componentsearchengine.com/Datasheets/2/IRF640NPBF.pdf", "4.83 mm"
+END_PART
+
+END.

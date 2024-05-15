@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LM2596S-5.0_NOPB
-D Switching Voltage Regulators 150 KHZ 3A STEP-DOWN VLTG REG
-K
-F https://www.ti.com/lit/gpn/LM2596
-$ENDCMP
-#
-#End Doc Library

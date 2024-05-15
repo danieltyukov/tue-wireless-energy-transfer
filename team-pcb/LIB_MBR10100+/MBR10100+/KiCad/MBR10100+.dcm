@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBR10100+
+D SCHOTTKY RECTIFIER, 10A, 100V, TO-220AC
+K
+F 
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEUFC1J221S
+D Panasonic Aluminium Electrolytic Capacitor 220uF 63V dc 12.5mm FC Radial Series, Through Hole Electrolytic, +/-20%
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf
+$ENDCMP
+#
+#End Doc Library

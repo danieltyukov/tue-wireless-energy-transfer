@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1_826629_6'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1-826629-6" (!) = "", "HDRV16W63P0X254_1X16_4064X250X950P", "Header, Vertical", "", "", "16w s/r straight pin header gold Mod II", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA21/2082916.pdf", "9.5 mm"
+END_PART
+
+END.

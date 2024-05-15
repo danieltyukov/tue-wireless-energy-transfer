@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1-826629-6
+PartCategory=Connector
+PackageCategory=Header, Vertical
+PinCount=16
+Version=2.3
+Released=2016-04-19 15:48:41
+Downloaded=2024-05-15 21:33:16
+3D=Y

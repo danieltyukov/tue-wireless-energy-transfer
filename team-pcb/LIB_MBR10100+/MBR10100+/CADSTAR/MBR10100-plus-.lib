@@ -1,0 +1,16 @@
+.MBR10100-plus- :1 ;SCHOTTKY RECTIFIER, 10A, 100V, TO-220AC
+TO490P480X1000X2110-2P
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN MBR10100-plus-
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Multicomp Pro)
+~!Manufacturer_Part_Number (MBR10100+)
+~!Link Datasheet (-)
+~!Height (4.8mm)
+~!3D_Model (MBR10100+)
+MBR10100-plus-
+1.1!U 2.1!U 

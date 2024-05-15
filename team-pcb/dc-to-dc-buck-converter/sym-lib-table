@@ -1,4 +1,11 @@
 (sym_lib_table
   (version 7)
-  (lib (name "LM2596S-5_0_NOPB")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/KiCad/LM2596S-5_0_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "IRF640NPBF(mosfet)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/IRF640NPBF/KiCad/IRF640NPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "EL7104CNZ(voltage regulator)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/EL7104CNZ/KiCad/EL7104CNZ.kicad_sym")(options "")(descr ""))
+  (lib (name "C322C104K5R5TA(decoup capacitor)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/C322C104K5R5TA/KiCad/C322C104K5R5TA.kicad_sym")(options "")(descr ""))
+  (lib (name "MBR10100+(diode)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/LIB_MBR10100+/MBR10100+/KiCad/MBR10100+.kicad_sym")(options "")(descr ""))
+  (lib (name "EEUFC1J221S(capacitor)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/EEUFC1J221S/KiCad/EEUFC1J221S.kicad_sym")(options "")(descr ""))
+  (lib (name "1715721(screw connector)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/1715721/KiCad/1715721.kicad_sym")(options "")(descr ""))
+  (lib (name "1-826629-6(pins)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/1-826629-6/KiCad/1-826629-6.kicad_sym")(options "")(descr ""))
+  (lib (name "MF25_10R(resistor)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/team-pcb/MF25_10R/KiCad/MF25_10R.kicad_sym")(options "")(descr ""))
 )

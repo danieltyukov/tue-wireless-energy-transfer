@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EEUFC1J221S
+#/393224/1337878/2.50/2/2/Capacitor Polarised
+DEF EEUFC1J221S C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEUFC1J221S" 350 150 50 H V L CNN
+F2 "CAPPRD500W65D1250H2200" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf" 350 -50 50 H I L CNN
+F4 "Panasonic Aluminium Electrolytic Capacitor 220uF 63V dc 12.5mm FC Radial Series, Through Hole Electrolytic, +/-20%" 350 -150 50 H I L CNN "Description"
+F5 "22" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Farnell Part Number"
+F7 "" 350 -450 50 H I L CNN "Farnell Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEUFC1J221S" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

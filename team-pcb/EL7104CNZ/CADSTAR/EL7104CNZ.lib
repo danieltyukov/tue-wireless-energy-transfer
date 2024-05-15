@@ -1,0 +1,16 @@
+.EL7104CNZ :1 ;The EL7104 is a matched driver IC that improves the operation of the industry-standard TC-4420/29 clock drivers. The Elantec version is a very High-Speed driver capable of delivering peak currents of 1A into highly capacitive loads. The High-Speed performance is achieved by means of a proprietary Turbo-Driver circuit that speeds up input stages by tapping the wider voltage swing at the output. Improved speed and drive capability are enhanced by matched rise and fall delay times. These matched delays maintai
+DIP762W51P254L952H533Q8N
+*STM IC
+*NGS
+*PLB 1="V+_1" 2="IN" 3="NC" 4="GND_1" 5="GND_2" 6="N_OUT" 7="P_OUT" 8="V+_2"
+*MXP 8
+*DFN EL7104CNZ
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Renesas Electronics)
+~!Manufacturer_Part_Number (EL7104CNZ)
+~!Link Datasheet (https://www.renesas.com/en-us/www/doc/datasheet/el7104.pdf)
+~!Height (5.334mm)
+~!3D_Model (EL7104CNZ)
+EL7104CNZ
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

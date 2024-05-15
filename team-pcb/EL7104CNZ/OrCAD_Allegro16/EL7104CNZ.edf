@@ -1,0 +1,160 @@
+
+(EDIF
+  (rename &EL7104CNZ "EL7104CNZ")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 05 15 19 54 04)
+      (dataOrigin "1698544/1337878/2.50/8/2/Integrated Circuit")
+      (program "SamacSys ECAD Model EL7104CNZ"
+        (version "4.1"))))
+  (library
+  (rename &EL7104CNZ "EL7104CNZ")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &EL7104CNZ "EL7104CNZ")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "EL7104CNZ"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "DIP762W51P254L952H533Q8N"))
+          (property (rename &Farnell_Part_Number "Farnell Part Number") (string ""))
+          (property (rename &Farnell_Price_Stock "Farnell Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Renesas Electronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "EL7104CNZ"))
+          (property (rename &Description "Description") (string "The EL7104 is a matched driver IC that improves the operation of the industry-standard TC-4420/29 clock drivers. The Elantec version is a very High-Speed driver capable of delivering peak currents of 1A into highly capacitive loads. The High-Speed performance is achieved by means of a proprietary Turbo-Driver circuit that speeds up input stages by tapping the wider voltage swing at the output. Improved speed and drive capability are enhanced by matched rise and fall delay times. These matched delays maintai"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.renesas.com/en-us/www/doc/datasheet/el7104.pdf"))
+          (property (rename &Height "Height") (string "5.334 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "EL7104CNZ"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &VP_1 "VP_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &IN "IN")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC "NC")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &N_OUT "N_OUT")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &P_OUT "P_OUT")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &VP_2 "VP_2")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &VP_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &IN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &NC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -400) (pt 0 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -400))))
+            )
+            (portImplementation
+              (name &VP_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -100) (pt 1000 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -100))))
+            )
+            (portImplementation
+              (name &P_OUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -200) (pt 1000 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -200))))
+            )
+            (portImplementation
+              (name &N_OUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -300) (pt 1000 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -300))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -400) (pt 1000 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -400))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 800 0)
+                  (pt 800 -500)
+                  (pt 0 -500)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 30))))
+          )
+        )
+      )
+    )
+  )
+)

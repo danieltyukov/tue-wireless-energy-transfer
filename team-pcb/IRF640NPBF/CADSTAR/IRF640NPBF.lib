@@ -1,0 +1,16 @@
+.IRF640NPBF :1 ;MOSFET N-Channel 200V 18A TO220AB Infineon IRF640NPBF N-channel MOSFET Transistor, 18 A, 200 V, 3-Pin TO-220AB
+TO254P483X1016X1994-3P
+*STM U
+*NGS
+*PLB 1="GATE" 2="SOURCE" 3="DRAIN"
+*MXP 3
+*DFN IRF640NPBF
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IRF640NPBF)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/IRF640NPBF.pdf)
+~!Height (4.83mm)
+~!3D_Model (IRF640NPBF)
+IRF640NPBF
+1.1!U 2.1!U 3.1!U 

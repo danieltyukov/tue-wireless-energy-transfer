@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C322C104K5R5TA
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=4.1
+Released=2018-03-14 15:41:48
+Downloaded=2024-05-15 19:55:29
+3D=Y
