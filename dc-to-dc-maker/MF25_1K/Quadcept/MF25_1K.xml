@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/247463/1337878/2.50/2/3/Resistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c120_h80" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="31.496062992126">
+    <padshape layer="TOP" shape="round" width="47.244094488188" height="47.244094488188" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="55.11811023622" height="55.11811023622" />
+    <padshape layer="INNER" shape="round" width="47.244094488188" height="47.244094488188" />
+    <padshape layer="BOTTOM" shape="round" width="47.244094488188" height="47.244094488188" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="55.11811023622" height="55.11811023622" />
+  </padstyle>
+  <footprint name="RESAD1680W59L680D250" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c120_h80" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c120_h80" originx="661.41732283464" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-33.464566929133" originy="62.992125984251" endx="694.88188976377" endy="62.992125984251" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="694.88188976377" originy="62.992125984251" endx="694.88188976377" endy="-62.992125984251" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="694.88188976377" originy="-62.992125984251" endx="-33.464566929133" endy="-62.992125984251" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-33.464566929133" originy="-62.992125984251" endx="-33.464566929133" endy="62.992125984251" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="196.85039370078" originy="49.212598425196" endx="464.56692913385" endy="49.212598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="464.56692913385" originy="49.212598425196" endx="464.56692913385" endy="-49.212598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="464.56692913385" originy="-49.212598425196" endx="196.85039370078" endy="-49.212598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="196.85039370078" originy="-49.212598425196" endx="196.85039370078" endy="49.212598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="0" originy="0" endx="196.85039370078" endy="0" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="464.56692913385" originy="0" endx="661.41732283464" endy="0" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="196.85039370078" originy="49.212598425196" endx="464.56692913385" endy="49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="464.56692913385" originy="49.212598425196" endx="464.56692913385" endy="-49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="464.56692913385" originy="-49.212598425196" endx="196.85039370078" endy="-49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="196.85039370078" originy="-49.212598425196" endx="196.85039370078" endy="49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="37.401574803149" originy="0" endx="196.85039370078" endy="0" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="464.56692913385" originy="0" endx="624.01574803149" endy="0" width="7.8740157480314" />
+  </footprint>
+  <symbol name="MF25_1K" originx="0" originy="0">
+    <line originx="200" originy="50" endx="500" endy="50" width="0" />
+    <line originx="500" originy="-50" endx="500" endy="50" width="0" />
+    <line originx="500" originy="-50" endx="200" endy="-50" width="0" />
+    <line originx="200" originy="50" endx="200" endy="-50" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="1" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="700" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="2" />
+      <text name="pindes" originx="700" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="MF25_1K" designatorprefix="R" height="0" footprint="RESAD1680W59L680D250">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="MF25_1K" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://componentsearchengine.com/Datasheets/2/MF25 1K.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="MULTICOMP - MF25 1K - RES, 1K, 1%, 250MW, AXIAL, METAL FILM" />
+    <text name="Farnell Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Farnell Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Multicomp Pro" />
+    <text name="Manufacturer_Part_Number" originx="550" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="MF25 1K" />
+  </component>
+</quadcept_library>

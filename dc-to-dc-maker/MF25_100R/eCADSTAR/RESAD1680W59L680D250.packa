@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MF25_100R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-10-27-13:37:44)
+    (mountForm default
+        (footprintRef "RESAD1680W59L680D250")
+        (spec "System")
+    )
+)

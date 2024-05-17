@@ -1,0 +1,16 @@
+.MF25_100R :1 ;RES, 100R, 1%, 250MW, AXIAL, METAL FILM
+RESAD1680W59L680D250
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF25_100R
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Multicomp Pro)
+~!Manufacturer_Part_Number (MF25 100R)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (MF25_100R)
+MF25_100R
+1.1!U 2.1!U 

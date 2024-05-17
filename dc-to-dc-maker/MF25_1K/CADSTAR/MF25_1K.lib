@@ -1,0 +1,16 @@
+.MF25_1K :1 ;MULTICOMP - MF25 1K - RES, 1K, 1%, 250MW, AXIAL, METAL FILM
+RESAD1680W59L680D250
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF25_1K
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Multicomp Pro)
+~!Manufacturer_Part_Number (MF25 1K)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/MF25 1K.pdf)
+~!Height (-)
+~!3D_Model (MF25_1K)
+MF25_1K
+1.1!U 2.1!U 

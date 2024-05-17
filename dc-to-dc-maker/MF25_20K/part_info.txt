@@ -1,0 +1,9 @@
+Manufacturer=Multicomp Pro
+PartNumber=MF25 20K
+PartCategory=Resistor
+PackageCategory=Resistors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=2.1
+Released=2018-01-10 14:11:49
+Downloaded=2024-05-17 20:15:25
+3D=Y

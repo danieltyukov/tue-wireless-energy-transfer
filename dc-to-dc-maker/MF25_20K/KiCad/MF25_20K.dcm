@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF25_20K
+D MULTICOMP - MF25 20K - RESISTOR, 20K, 0.25W, 1%
+K
+F https://componentsearchengine.com/Datasheets/2/MF25 20K.pdf
+$ENDCMP
+#
+#End Doc Library

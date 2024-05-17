@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF25_1K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Multicomp Pro", "MF25 1K" (!) = "", "RESAD1680W59L680D250", "Resistors, Axial Diameter Horizontal Mounting", "", "", "MULTICOMP - MF25 1K - RES, 1K, 1%, 250MW, AXIAL, METAL FILM", "https://componentsearchengine.com/Datasheets/2/MF25 1K.pdf"
+END_PART
+
+END.

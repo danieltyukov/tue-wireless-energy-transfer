@@ -1,0 +1,9 @@
+Manufacturer=Multicomp Pro
+PartNumber=MF25 100R
+PartCategory=Resistor
+PackageCategory=Resistors, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=2.1
+Released=2024-01-25 03:23:36
+Downloaded=2024-05-17 22:02:49
+3D=Y

@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_3187223"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-25-03:23:36)
+    (utime 2024-01-25-06:25:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MF25_100R")
+)
+
+
+(pinAssign "ECS_3187223"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-25-03:23:36)
+    (utime 2024-01-25-06:25:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_3187223")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MF25_100R")
+)
+
+
+(part "MF25_100R"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-25-03:23:36)
+    (utime 2024-01-25-06:25:32)
+    (packageRef "MF25_100R")
+    (pinAssignRef "ECS_3187223")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "RES, 100R, 1%, 250MW, AXIAL, METAL FILM")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Multicomp Pro")
+    (property "Manufacturer_Part_Number" "MF25 100R")
+    (property "Datasheet_Link" "")
+)
+
+

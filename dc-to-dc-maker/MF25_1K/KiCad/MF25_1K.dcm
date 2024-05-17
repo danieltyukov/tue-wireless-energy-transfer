@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF25_1K
+D MULTICOMP - MF25 1K - RES, 1K, 1%, 250MW, AXIAL, METAL FILM
+K
+F https://componentsearchengine.com/Datasheets/2/MF25 1K.pdf
+$ENDCMP
+#
+#End Doc Library

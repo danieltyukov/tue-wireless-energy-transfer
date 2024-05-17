@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MF25_20K"
+   (description "MULTICOMP - MF25 20K - RESISTOR, 20K, 0.25W, 1%")
+   (family "RES")
+   (package "RESAD1680W59L680D250")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/MF25 20K.pdf")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "Multicomp Pro")
+   (attribute "Manufacturer_Part_Number" "MF25 20K")
+   (gate
+    (symbol "MF25_20K")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MF25_20K"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESAD1680W59L680D250"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.85 1.6)
+      (pt 17.65 1.6)
+      (pt 17.65 -1.6)
+      (pt -0.85 -1.6)
+      (pt -0.85 1.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5 1.25)
+      (pt 11.8 1.25)
+      (pt 11.8 -1.25)
+      (pt 5 -1.25)
+      (pt 5 1.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 5 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 11.8 0)
+      (pt 16.8 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 5 1.25)
+      (pt 11.8 1.25)
+      (pt 11.8 -1.25)
+      (pt 5 -1.25)
+      (pt 5 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.95 0)
+      (pt 5 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 11.8 0)
+      (pt 15.85 0))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 16.8 0) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.2))
+    (pad (layer INNER) (round 1.2))
+    (pad (layer BCOP) (round 1.2))
+   )
+   (model "MF25_20K.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

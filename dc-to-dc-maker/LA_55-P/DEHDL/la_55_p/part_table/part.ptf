@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LA_55_P'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "LEM", "LA 55-P" (!) = "", "LA55-P", "Other", "", "", "Closed Loop Hall Effect Current Transducer, 0 to 70 A, 12 to 15 V", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314841.pdf"
+END_PART
+
+END.

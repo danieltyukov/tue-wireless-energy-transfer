@@ -1,0 +1,7 @@
+Questionable use of curly braces in "v_d_peak= {vo}"
+    Error: undefined symbol in: "[vo]"
+Questionable use of curly braces in "v_s_peak={vo}"
+    Error: undefined symbol in: "[vo]"
+Circuit: %% CBL Wireless charging boost converter design
+
+Fatal Error: Unknown SPICE device type "%" in "%% parameters"

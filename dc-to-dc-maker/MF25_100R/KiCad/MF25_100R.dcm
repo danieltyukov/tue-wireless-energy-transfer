@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF25_100R
+D RES, 100R, 1%, 250MW, AXIAL, METAL FILM
+K
+F 
+$ENDCMP
+#
+#End Doc Library

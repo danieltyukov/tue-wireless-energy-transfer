@@ -1,0 +1,16 @@
+.LA_55-P :1 ;Closed Loop Hall Effect Current Transducer, 0 to 70 A, 12 to 15 V
+LA55-P
+*STM IC
+*NGS
+*PLB 1="M" 2="NEG" 3="POS"
+*MXP 3
+*DFN LA_55-P
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (LEM)
+~!Manufacturer_Part_Number (LA 55-P)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314841.pdf)
+~!Height (-)
+~!3D_Model (LA_55-P)
+LA_55-P
+1.1!U 2.1!U 3.1!U 
