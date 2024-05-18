@@ -12,4 +12,5 @@
   (lib (name "MF25_1K(resistor)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/dc-to-dc-maker/MF25_1K/KiCad")(options "")(descr ""))
   (lib (name "LA_55-P(current detector)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/dc-to-dc-maker/LA_55-P/KiCad")(options "")(descr ""))
   (lib (name "MF25_100R(resistor)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/dc-to-dc-maker/MF25_100R/KiCad")(options "")(descr ""))
+  (lib (name "TLUR5400(led)")(type "KiCad")(uri "/home/danieltyukov/workspace/tue/tue-wireless-energy-transfer/dc-to-dc-maker/TLUR5400/KiCad")(options "")(descr ""))
 )

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_404096"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-11-14:10:29)
+    (utime 2023-06-22-10:55:39)
+    (interface
+        (port "1" (symbPinId 2) (portType INOUT))
+        (port "2" (symbPinId 1) (portType INOUT))
+    )
+    (property "symbolName" "TLUR5400")
+)
+
+
+(pinAssign "ECS_404096"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-11-14:10:29)
+    (utime 2023-06-22-10:55:39)
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_404096")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TLUR5400")
+)
+
+
+(part "TLUR5400"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-11-14:10:29)
+    (utime 2023-06-22-10:55:39)
+    (packageRef "TLUR5400")
+    (pinAssignRef "ECS_404096")
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Vishay TLUR5400 Red LED, 630 nm, 5mm (T-1 3/4), Round Lens Through Hole Package")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "TLUR5400")
+    (property "Datasheet_Link" "https://g.componentsearchengine.com/Datasheets/1/TLUR5400.pdf")
+    (property "compAreaTopHeight" 12.8)
+)
+
+

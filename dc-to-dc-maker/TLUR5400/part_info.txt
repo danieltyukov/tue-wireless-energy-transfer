@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=TLUR5400
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=1.4
+Released=2020-10-11 14:10:29
+Downloaded=2024-05-18 10:16:37
+3D=Y
