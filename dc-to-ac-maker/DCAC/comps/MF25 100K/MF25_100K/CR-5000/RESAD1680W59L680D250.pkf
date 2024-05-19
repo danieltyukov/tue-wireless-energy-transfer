@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RESAD1680W59L680D250"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RESAD1680W59L680D250")
+        (spec "default")
+    )
+)

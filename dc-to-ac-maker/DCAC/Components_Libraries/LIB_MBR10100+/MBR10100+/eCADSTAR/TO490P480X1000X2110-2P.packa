@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MBR10100+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-12-13:12:52)
+    (mountForm default
+        (footprintRef "TO490P480X1000X2110-2P")
+        (spec "System")
+    )
+)

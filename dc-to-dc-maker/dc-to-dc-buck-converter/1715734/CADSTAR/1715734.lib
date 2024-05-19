@@ -1,0 +1,16 @@
+.1715734 :1 ;PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of pos
+"1715734"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 1715734
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1715734)
+~!Link Datasheet (http://www.phoenixcontact.com/de/produkte/1715734/pdf)
+~!Height (13.95mm)
+~!3D_Model (1715734)
+"1715734"
+1.1!U 2.1!U 3.1!U 

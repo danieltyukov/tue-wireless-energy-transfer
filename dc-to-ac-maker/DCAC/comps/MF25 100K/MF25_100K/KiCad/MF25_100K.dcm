@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF25_100K
+D MULTICOMP - MF25 100K - RESISTOR, 100K, 0.25W, 1%
+K
+F 
+$ENDCMP
+#
+#End Doc Library

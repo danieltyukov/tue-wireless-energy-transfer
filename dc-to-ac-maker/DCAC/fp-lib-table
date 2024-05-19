@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1N4004RL")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/1N4004RL")(options "")(descr ""))
+  (lib (name "B32529C1104K000")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/B32529C1104K000")(options "")(descr ""))
+  (lib (name "IR2110PBF")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/IR2110PBF")(options "")(descr ""))
+  (lib (name "IRF640NPBF")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/IRF640NPBF")(options "")(descr ""))
+  (lib (name "LA_55-P")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/LIB_LA_55-P/LA_55-P/KiCad")(options "")(descr ""))
+  (lib (name "MBR10100+")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/LIB_MBR10100+/MBR10100+/KiCad")(options "")(descr ""))
+  (lib (name "MF25")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/LIB_MF25_10R/MF25_10R/KiCad")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/Components_Libraries/1715721/1715721/KiCad")(options "")(descr ""))
+)

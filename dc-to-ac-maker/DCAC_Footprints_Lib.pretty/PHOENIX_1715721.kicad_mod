@@ -1,0 +1,236 @@
+(footprint "PHOENIX_1715721"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.175 -10.885 0)
+		(layer "F.SilkS")
+		(uuid "26e6a084-acae-44c1-be83-ddf7764e379c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHOENIX_1715721"
+		(at 9.525 1.115 0)
+		(layer "F.Fab")
+		(uuid "de80d313-1213-4125-b058-14b56ac12d09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PHOENIX_1715721"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2ca25a4-553d-4a7b-86a1-80d3ed668dce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3d825ca-7be0-40b3-9369-d56d8a0833df")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8ec1f69-bdda-4db0-91e9-560290e42726")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b9669f6-9324-4e58-a516-9dbcaf959056")
+	)
+	(fp_line
+		(start 0 0)
+		(end 10.16 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92d96b2a-f2c3-4047-ad06-898f5dddd0e6")
+	)
+	(fp_line
+		(start 10.16 -9.8)
+		(end 0 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da0c7e5e-87b3-483d-af74-0011d1328082")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 10.16 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d21cddd1-7a79-44d9-8554-fbc1d0489a52")
+	)
+	(fp_circle
+		(center -1.1 -4.6)
+		(end -1 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5b788a86-4a10-40d2-a455-f91197ba3df4")
+	)
+	(fp_line
+		(start -0.82 -10.05)
+		(end -0.82 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5af91b6-c352-4af4-a5cf-e1ce4aa01208")
+	)
+	(fp_line
+		(start -0.82 0.25)
+		(end 10.41 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c321d2b-66b4-474a-8129-02cb18294034")
+	)
+	(fp_line
+		(start 10.41 -10.05)
+		(end -0.82 -10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af03fc0a-b3d1-490f-907d-f556c5ce5d18")
+	)
+	(fp_line
+		(start 10.41 0.25)
+		(end 10.41 -10.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6c89530-f4a6-48ce-94ea-0baafe43471d")
+	)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bfdbbe3-df1b-4423-acca-ea32810b67c3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 10.16 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85853051-bae5-4a94-b9cd-ebe6a408101c")
+	)
+	(fp_line
+		(start 10.16 -9.8)
+		(end 0 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "724147d0-b278-4bb6-83a0-b67c1221ded2")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 10.16 -9.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f29f7439-ee62-4f3a-ba0c-c192e085f178")
+	)
+	(fp_circle
+		(center -1.1 -4.6)
+		(end -1 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2b24942d-7ba8-46f7-b4ab-8f1b2aeb99a9")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 -4.6)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e1e93403-320d-4be4-b995-669f23f6ba7f")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 -4.6)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7497e42b-16b4-427d-bf54-d8f69475bb28")
+	)
+	(model "C:/Users/20221153/Downloads/comps/3d attempts/1715721/3D/1715721.stp"
+		(offset
+			(xyz 10.75 8.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

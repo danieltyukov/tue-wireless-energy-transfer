@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LA_55-P
+D Closed Loop Hall Effect Current Transducer, 0 to 70 A, 12 to 15 V
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314841.pdf
+$ENDCMP
+#
+#End Doc Library

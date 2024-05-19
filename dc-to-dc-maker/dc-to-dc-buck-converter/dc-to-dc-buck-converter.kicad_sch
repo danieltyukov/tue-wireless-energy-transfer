@@ -162,6 +162,175 @@
 				)
 			)
 		)
+		(symbol "1715734(screw connector):1715734"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1715734"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1715734"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1715734/pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of pos"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.95"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1715734"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1715734_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "C322C104K5R5TA(decoup capacitor):C322C104K5R5TA"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -342,330 +511,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x06_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2664,6 +2509,12 @@
 		)
 	)
 	(junction
+		(at 67.31 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15ae32b2-d1d4-428e-9948-323f0a309eef")
+	)
+	(junction
 		(at 138.43 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2742,16 +2593,16 @@
 		(uuid "97f00591-d748-4e54-a118-cc1ae0a488c7")
 	)
 	(junction
-		(at 67.31 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98e8f936-b886-48bd-bc88-03d111c5d2f4")
-	)
-	(junction
 		(at 67.31 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ff03ac4-ce3f-4e55-a761-ccff2a34a6c1")
+	)
+	(junction
+		(at 162.56 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afd46ecf-5ac6-4ce3-96ab-d5ee2fab24ca")
 	)
 	(junction
 		(at 111.76 92.71)
@@ -2825,6 +2676,12 @@
 		(color 0 0 0 0)
 		(uuid "e932fadd-d3c9-4b78-9677-4875ba724693")
 	)
+	(junction
+		(at 113.03 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f612e3b3-204a-4844-9bf4-5232569a7f8a")
+	)
 	(wire
 		(pts
 			(xy 264.16 115.57) (xy 269.24 115.57)
@@ -2834,6 +2691,16 @@
 			(type default)
 		)
 		(uuid "00e44ed0-dcd5-4887-9898-3f872295d7e6")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015365e8-cdfb-4d98-a734-4494bfcd0b39")
 	)
 	(wire
 		(pts
@@ -2907,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 74.93) (xy 40.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16640290-52f2-4597-b4ef-1df65baf7a9f")
+	)
+	(wire
+		(pts
 			(xy 43.18 58.42) (xy 43.18 63.5)
 		)
 		(stroke
@@ -2937,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 67.31 125.73)
+			(xy 40.64 125.73) (xy 67.31 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2964,6 +2841,16 @@
 			(type default)
 		)
 		(uuid "239f5d4a-9023-46c8-871e-ac717073a846")
+	)
+	(wire
+		(pts
+			(xy 38.1 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24efb7bd-4e15-4c57-925e-b9f80c793552")
 	)
 	(wire
 		(pts
@@ -2997,16 +2884,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 80.01) (xy 41.91 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a1793d7-c4c0-43e9-a329-1f49852aacab")
-	)
-	(wire
-		(pts
 			(xy 121.92 119.38) (xy 49.53 119.38)
 		)
 		(stroke
@@ -3014,16 +2891,6 @@
 			(type default)
 		)
 		(uuid "2a679364-8b65-4bcc-b0c3-c7f406e4daac")
-	)
-	(wire
-		(pts
-			(xy 45.72 85.09) (xy 38.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8d34a7-f120-49a2-9374-10db525b8a85")
 	)
 	(wire
 		(pts
@@ -3077,6 +2944,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 72.39) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bea2d24-9c44-498d-930e-c24c7402f52b")
+	)
+	(wire
+		(pts
 			(xy 58.42 62.23) (xy 58.42 110.49)
 		)
 		(stroke
@@ -3097,16 +2974,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 92.71) (xy 38.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e8bc5d2-66eb-407e-998f-8537824351df")
-	)
-	(wire
-		(pts
 			(xy 204.47 68.58) (xy 212.09 68.58)
 		)
 		(stroke
@@ -3124,6 +2991,16 @@
 			(type default)
 		)
 		(uuid "46341e13-ad2d-4bde-b569-1d00bcbb5d97")
+	)
+	(wire
+		(pts
+			(xy 113.03 160.02) (xy 162.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465108ed-22bb-4279-89bf-718fbc39c6d0")
 	)
 	(wire
 		(pts
@@ -3154,16 +3031,6 @@
 			(type default)
 		)
 		(uuid "4be09948-d00a-4385-9169-df21b95a80b4")
-	)
-	(wire
-		(pts
-			(xy 38.1 128.27) (xy 109.22 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2d0090-bee2-4077-a32c-13a0086b7bee")
 	)
 	(wire
 		(pts
@@ -3274,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "6a5785c7-3eed-4ec4-9b3f-2702cb680acf")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4c1f80-24fc-4da8-86fb-6d8ddd660f63")
 	)
 	(wire
 		(pts
@@ -3397,16 +3274,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 82.55) (xy 38.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f1a42b-084a-4c81-b9ae-98b0350033f6")
-	)
-	(wire
-		(pts
 			(xy 111.76 76.2) (xy 111.76 92.71)
 		)
 		(stroke
@@ -3424,6 +3291,16 @@
 			(type default)
 		)
 		(uuid "83ca97f4-5d95-4a72-90f1-720f0569f14e")
+	)
+	(wire
+		(pts
+			(xy 35.56 86.36) (xy 34.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f4e444-a0d9-49d7-8be1-90a3b5214f59")
 	)
 	(wire
 		(pts
@@ -3457,33 +3334,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 49.53 90.17)
+			(xy 49.53 69.85) (xy 49.53 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92830278-17b4-4a7c-a291-266279d62ebd")
-	)
-	(wire
-		(pts
-			(xy 49.53 90.17) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "950987ec-6e61-4abc-a9a9-d4443967255e")
-	)
-	(wire
-		(pts
-			(xy 45.72 114.3) (xy 45.72 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c516d43-c20b-4978-8f88-735fa7dc1221")
 	)
 	(wire
 		(pts
@@ -3504,6 +3361,16 @@
 			(type default)
 		)
 		(uuid "9d347332-bf43-4622-b1d8-1f0a23f65c75")
+	)
+	(wire
+		(pts
+			(xy 49.53 69.85) (xy 34.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd101da-a2a0-40b5-aa59-9298d99a5f56")
 	)
 	(wire
 		(pts
@@ -3577,16 +3444,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 87.63) (xy 67.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a75cb746-d61f-40cd-a95d-c8bc5c592db5")
-	)
-	(wire
-		(pts
 			(xy 181.61 68.58) (xy 204.47 68.58)
 		)
 		(stroke
@@ -3597,6 +3454,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 81.28) (xy 38.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab201fb7-3bc4-4ae3-b675-140d87a75e82")
+	)
+	(wire
+		(pts
 			(xy 77.47 40.64) (xy 95.25 40.64)
 		)
 		(stroke
@@ -3604,6 +3471,16 @@
 			(type default)
 		)
 		(uuid "ac3e8f35-34f9-44b4-a449-34da69f6187c")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 34.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad678b75-f01d-48d7-aa11-914f63f77136")
 	)
 	(wire
 		(pts
@@ -3677,6 +3554,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 86.36) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6975d4-14ba-46c5-b932-b2fe2e70492e")
+	)
+	(wire
+		(pts
 			(xy 67.31 82.55) (xy 67.31 87.63)
 		)
 		(stroke
@@ -3717,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 44.45 86.36)
+			(xy 36.83 86.36) (xy 81.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3754,6 +3641,16 @@
 			(type default)
 		)
 		(uuid "c779ea12-dfaf-44aa-b83f-3e84e04c536e")
+	)
+	(wire
+		(pts
+			(xy 162.56 160.02) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bf5365-0c24-48b7-b435-14cdca6939d3")
 	)
 	(wire
 		(pts
@@ -3797,6 +3694,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 74.93) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde622b2-6fa7-4e6c-be18-e124049abf48")
+	)
+	(wire
+		(pts
 			(xy 215.9 49.53) (xy 213.36 49.53)
 		)
 		(stroke
@@ -3817,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 81.28) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6c619d-1128-4e97-8e18-c0a515a21993")
+	)
+	(wire
+		(pts
 			(xy 269.24 87.63) (xy 269.24 90.17)
 		)
 		(stroke
@@ -3824,6 +3741,16 @@
 			(type default)
 		)
 		(uuid "dd72620d-c3b0-4a5b-963e-473c695e81a7")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 35.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee04d55-835e-411e-9c6d-1f425774292d")
 	)
 	(wire
 		(pts
@@ -3837,6 +3764,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 87.63) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe4d569-492d-481e-9898-fd947b54bd6a")
+	)
+	(wire
+		(pts
 			(xy 143.51 50.8) (xy 138.43 50.8)
 		)
 		(stroke
@@ -3844,16 +3781,6 @@
 			(type default)
 		)
 		(uuid "e170cb80-62f2-41bc-9e8c-df3cad18a1a3")
-	)
-	(wire
-		(pts
-			(xy 44.45 86.36) (xy 44.45 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e47dfb5d-6f49-406e-a2d2-a15185157839")
 	)
 	(wire
 		(pts
@@ -3927,16 +3854,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 87.63) (xy 67.31 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f895a68d-f7d8-4b7a-9b7b-82663c8f3559")
-	)
-	(wire
-		(pts
 			(xy 241.3 115.57) (xy 248.92 115.57)
 		)
 		(stroke
@@ -3954,16 +3871,6 @@
 			(type default)
 		)
 		(uuid "fb08e246-55f5-4c96-ac84-428702c0aa8e")
-	)
-	(wire
-		(pts
-			(xy 38.1 80.01) (xy 41.91 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8aa0fe-a874-4c35-8228-73f5949711ea")
 	)
 	(wire
 		(pts
@@ -4579,86 +4486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 33.02 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "120915c6-1dff-4229-8dab-d2d63f767e80")
-		(property "Reference" "J1"
-			(at 33.655 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 33.655 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 33.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d33052d4-f6e1-4772-8851-e01c7159faaa")
-		)
-		(pin "3"
-			(uuid "efc86055-77b0-46b8-bd9c-79a4d3066559")
-		)
-		(pin "2"
-			(uuid "7fbb29a8-37bc-4bff-9a9c-6696bf76b30e")
-		)
-		(pin "5"
-			(uuid "8c5c3cf2-1f76-4dea-b02e-2e8c14ef2323")
-		)
-		(pin "1"
-			(uuid "0225e81d-1304-4a0b-8d4a-2516e6bdaeff")
-		)
-		(pin "6"
-			(uuid "ca9c9ef6-3f8c-49b9-b2f4-dea004b2df8e")
-		)
-		(instances
-			(project "dc-to-dc-buck-converter"
-				(path "/5e60da06-e878-40ed-8346-a8f3c05140ca"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IRF640NPBF(mosfet):IRF640NPBF")
 		(at 207.01 76.2 0)
 		(unit 1)
@@ -4784,45 +4611,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LA_55-P(current-sensor):LA_55-P")
-		(at 99.06 165.1 180)
+		(lib_id "1715734(screw connector):1715734")
+		(at 34.29 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16b07f6e-2abc-408a-aa61-61820413a520")
-		(property "Reference" "IC2"
-			(at 80.01 163.8301 0)
+		(uuid "1a26739f-0e51-4e99-95cb-6b92c15d3b0b")
+		(property "Reference" "Jmc2"
+			(at 24.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LA_55-P"
-			(at 80.01 161.2901 0)
+		(property "Value" "1715734"
+			(at 24.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LA_55-P(current detector):LA55-P"
-			(at 80.01 70.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314841.pdf"
-			(at 80.01 -29.82 0)
+		(property "Footprint" "1715734(screw connector):1715734"
+			(at 17.78 176.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,8 +4646,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Closed Loop Hall Effect Current Transducer, 0 to 70 A, 12 to 15 V"
-			(at 99.06 165.1 0)
+		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1715734/pdf"
+			(at 17.78 276.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of pos"
+			(at 34.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,8 +4665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 80.01 -229.82 0)
+		(property "Height" "13.95"
+			(at 17.78 476.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4676,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 80.01 -329.82 0)
+			(at 17.78 576.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4686,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 80.01 -429.82 0)
+			(at 17.78 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,8 +4695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LEM"
-			(at 80.01 -529.82 0)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 17.78 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,8 +4705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LA 55-P"
-			(at 80.01 -629.82 0)
+		(property "Manufacturer_Part_Number" "1715734"
+			(at 17.78 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,20 +4714,20 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "74a78b08-e083-4e18-a17d-86bcc8614554")
-		)
-		(pin "1"
-			(uuid "5be42f9d-0630-4471-adce-1ab6e5fe8d5a")
 		)
 		(pin "2"
-			(uuid "df79ff85-29d4-4a4b-8180-5a149d72318c")
+			(uuid "0a164018-c46f-4ad4-b591-2842fdea01f2")
+		)
+		(pin "1"
+			(uuid "93853be3-6d4e-4960-8196-003d1dc8158e")
+		)
+		(pin "3"
+			(uuid "5756a910-f89d-4f4c-bd46-269f16571339")
 		)
 		(instances
 			(project "dc-to-dc-buck-converter"
 				(path "/5e60da06-e878-40ed-8346-a8f3c05140ca"
-					(reference "IC2")
+					(reference "Jmc2")
 					(unit 1)
 				)
 			)
@@ -5516,6 +5341,129 @@
 			(project "dc-to-dc-buck-converter"
 				(path "/5e60da06-e878-40ed-8346-a8f3c05140ca"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1715734(screw connector):1715734")
+		(at 34.29 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fe71547-42b4-4ae2-9900-d8aa6ad47324")
+		(property "Reference" "Jmc1"
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1715734"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1715734(screw connector):1715734"
+			(at 17.78 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1715734/pdf"
+			(at 17.78 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of pos"
+			(at 34.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.95"
+			(at 17.78 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 17.78 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 17.78 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 17.78 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1715734"
+			(at 17.78 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19a80369-6f33-4d0a-910e-90fe664dbf73")
+		)
+		(pin "1"
+			(uuid "0a87a27b-7fcc-4c0c-b091-7051b11368d5")
+		)
+		(pin "3"
+			(uuid "6dbe6a3b-622f-4fa9-a778-39a39ce4204c")
+		)
+		(instances
+			(project "dc-to-dc-buck-converter"
+				(path "/5e60da06-e878-40ed-8346-a8f3c05140ca"
+					(reference "Jmc1")
 					(unit 1)
 				)
 			)
@@ -7138,6 +7086,129 @@
 			(project "dc-to-dc-buck-converter"
 				(path "/5e60da06-e878-40ed-8346-a8f3c05140ca"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LA_55-P(current-sensor):LA_55-P")
+		(at 99.06 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd293eeb-d110-4a1f-ac78-f86f240f9353")
+		(property "Reference" "IC2"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LA_55-P"
+			(at 87.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LA_55-P(current detector):LA55-P"
+			(at 80.01 70.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314841.pdf"
+			(at 80.01 -29.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Closed Loop Hall Effect Current Transducer, 0 to 70 A, 12 to 15 V"
+			(at 99.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 80.01 -229.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 80.01 -329.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 80.01 -429.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LEM"
+			(at 80.01 -529.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LA 55-P"
+			(at 80.01 -629.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "34295bfb-f5af-48d8-9fa7-e52634588c97")
+		)
+		(pin "1"
+			(uuid "e419b636-9726-4eea-8900-328845ac7f8f")
+		)
+		(pin "2"
+			(uuid "0cca6324-0483-4c22-9cc1-8f36a69e76c9")
+		)
+		(instances
+			(project "dc-to-dc-buck-converter"
+				(path "/5e60da06-e878-40ed-8346-a8f3c05140ca"
+					(reference "IC2")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LA55-P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LA55-P")
+        (spec "default")
+    )
+)

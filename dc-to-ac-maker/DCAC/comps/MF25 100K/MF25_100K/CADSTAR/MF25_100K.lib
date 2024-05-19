@@ -1,0 +1,16 @@
+.MF25_100K :1 ;MULTICOMP - MF25 100K - RESISTOR, 100K, 0.25W, 1%
+RESAD1680W59L680D250
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF25_100K
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Multicomp Pro)
+~!Manufacturer_Part_Number (MF25 100K)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (MF25_100K)
+MF25_100K
+1.1!U 2.1!U 

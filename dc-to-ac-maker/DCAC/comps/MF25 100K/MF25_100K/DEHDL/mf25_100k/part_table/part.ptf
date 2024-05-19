@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF25_100K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Multicomp Pro", "MF25 100K" (!) = "", "RESAD1680W59L680D250", "Resistors, Axial Diameter Horizontal Mounting", "", "", "MULTICOMP - MF25 100K - RESISTOR, 100K, 0.25W, 1%", ""
+END_PART
+
+END.

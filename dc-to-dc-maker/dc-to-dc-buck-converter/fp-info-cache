@@ -1,4 +1,4 @@
-23356191895851099
+23357907933512885
 1-826629-6(pins)
 HDRV16W63P0X254_1X16_4064X250X950P
 1-826629-6
@@ -13,6 +13,13 @@ Connector
 0
 2
 2
+1715734(screw connector)
+1715734
+1715734
+Connector
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

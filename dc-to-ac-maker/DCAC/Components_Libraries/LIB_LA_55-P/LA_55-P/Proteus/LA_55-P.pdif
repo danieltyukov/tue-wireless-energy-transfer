@@ -1,0 +1,92 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LA_55-P"
+   (description "Closed Loop Hall Effect Current Transducer, 0 to 70 A, 12 to 15 V")
+   (family "ANA")
+   (package "LA55-P")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314841.pdf")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "LEM")
+   (attribute "Manufacturer_Part_Number" "LA 55-P")
+   (gate
+    (symbol "LA_55-P")
+    (pin "M" 1 PS)
+    (pin "NEG" 2 PS)
+    (pin "POS" 3 PS)
+   )
+  )
+  (symbol "LA_55-P"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LA55-P"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -36.59 6.55)
+      (pt 8.65 6.55)
+      (pt 8.65 -6.55)
+      (pt -36.59 -6.55)
+      (pt -36.59 6.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -36.59 6.55)
+      (pt 8.65 6.55)
+      (pt 8.65 -6.55)
+      (pt -36.59 -6.55)
+      (pt -36.59 6.55))))
+   (leg 1 (pt -27.94 0) (padstack 0))
+   (leg 2 (pt -22.86 0) (padstack 0))
+   (leg 3 (pt 0 0) (padstack 0))
+   (padstack 0
+    (hole 1.35)
+    (plated true)
+    (pad (layer TCOP) (round 2.2))
+    (pad (layer INNER) (round 2.2))
+    (pad (layer BCOP) (round 2.2))
+   )
+   (model "LA_55-P.stp"
+    (euler 180 0 0)
+    (offset -13.970000267028809 -7.789999961853027 14.109999656677246)
+   )
+  )
+ )
+)

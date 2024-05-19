@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_237005"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-01-10-15:36:05)
+    (utime 2023-06-22-02:40:14)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MF25_10K")
+)
+
+
+(pinAssign "ECS_237005"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-01-10-15:36:05)
+    (utime 2023-06-22-02:40:14)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_237005")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MF25_10K")
+)
+
+
+(part "MF25_10K"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-01-10-15:36:05)
+    (utime 2023-06-22-02:40:14)
+    (packageRef "MF25_10K")
+    (pinAssignRef "ECS_237005")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "MULTICOMP - MF25 10K - RESISTOR, 10K, 0.25W, 1%")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Multicomp Pro")
+    (property "Manufacturer_Part_Number" "MF25 10K")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/2/MF25 10K.pdf")
+)
+
+
