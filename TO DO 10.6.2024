@@ -1,4 +1,4 @@
 - longer cables from dcdc to dcac
 - Cables connected securely
 - check cable lengths / make new cables if needed
-- check capacitor bank values --> jwl = jwc(v^2) for each coil ! consider M = (N1*N2*A)/(L)
+- check capacitor bank values --> jwl = jwc(v^2) for each coil ! consider M = (mew_zero*mew_r*N1*N2*A)/(L) and L = (mew_zero*mew_r*(N^2)*a)/(l)
