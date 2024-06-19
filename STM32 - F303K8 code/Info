@@ -1,0 +1,4 @@
+Final versions
+V1 - Only PWM to drive mosfets
+V2 - ADCs usable -> maxes Dutycycle of DC-DC to reach circuit just below Pmax
+V3 - MPPT
