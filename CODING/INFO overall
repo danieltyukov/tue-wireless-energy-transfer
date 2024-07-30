@@ -1,0 +1,14 @@
+DONE
+- mppt
+- over current / voltage protection
+- dynamic PWM
+- adc measurements
+- code flow
+
+
+to /test/optimize!
+- MPPT 
+- load detection
+
+NOTES
+load detection via dcac / if load detected then flag pin on dcdc ! dcdc conv = 0 dutycycle during load detection 
