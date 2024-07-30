@@ -2575,6 +2575,12 @@
 		(uuid "62cf4cac-8af9-4d28-aaf3-91ee559751a4")
 	)
 	(junction
+		(at 194.31 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "791db76b-3580-45ef-985e-413fc50fe738")
+	)
+	(junction
 		(at 269.24 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2639,12 +2645,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c55bc2d9-a8dd-45a2-a41f-10907fd7ed19")
-	)
-	(junction
-		(at 194.31 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d858065f-63c9-4322-865f-e1f9687afd64")
 	)
 	(junction
 		(at 77.47 55.88)
@@ -2804,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 110.49) (xy 179.07 110.49)
+			(xy 58.42 110.49) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2891,6 +2891,16 @@
 			(type default)
 		)
 		(uuid "2a679364-8b65-4bcc-b0c3-c7f406e4daac")
+	)
+	(wire
+		(pts
+			(xy 194.31 50.8) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be3f2c4-bf32-441f-9f5d-7d7bce612d44")
 	)
 	(wire
 		(pts
@@ -2981,6 +2991,16 @@
 			(type default)
 		)
 		(uuid "3f6c54af-4760-4b8e-9227-a9c29fe39f1b")
+	)
+	(wire
+		(pts
+			(xy 191.77 50.8) (xy 191.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4315dc2b-81a9-44ed-810a-abaef6510fc9")
 	)
 	(wire
 		(pts
@@ -3164,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 50.8) (xy 179.07 110.49)
+			(xy 177.8 50.8) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3394,16 +3414,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 45.72) (xy 191.77 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15b275a-8d0d-461c-a7f5-2b3354eb199d")
-	)
-	(wire
-		(pts
 			(xy 113.03 160.02) (xy 113.03 175.26)
 		)
 		(stroke
@@ -3444,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 204.47 68.58)
+			(xy 180.34 68.58) (xy 204.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3491,16 +3501,6 @@
 			(type default)
 		)
 		(uuid "adbd7bb4-d3a2-44d3-b5ed-1fc9d02d4492")
-	)
-	(wire
-		(pts
-			(xy 194.31 45.72) (xy 194.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e4a97f-0e5f-40bd-ac2e-6a416c46cd01")
 	)
 	(wire
 		(pts
@@ -3814,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 181.61 68.58)
+			(xy 180.34 50.8) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 194.31 49.53)
+			(xy 194.31 60.96) (xy 194.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6720,7 +6720,7 @@
 	)
 	(symbol
 		(lib_id "1715721(screw connector):1715721")
-		(at 194.31 45.72 270)
+		(at 194.31 50.8 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6729,7 +6729,7 @@
 		(dnp no)
 		(uuid "a3fd0ca5-2574-4486-a3e5-e9e733567f2e")
 		(property "Reference" "J5"
-			(at 193.04 26.67 90)
+			(at 193.04 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +6737,7 @@
 			)
 		)
 		(property "Value" "Jout +50V"
-			(at 193.04 28.448 90)
+			(at 193.04 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6745,7 @@
 			)
 		)
 		(property "Footprint" "1715721(screw connector):1715721"
-			(at 99.39 29.21 0)
+			(at 99.39 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6755,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1715721/pdf"
-			(at -0.61 29.21 0)
+			(at -0.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6765,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of pos"
-			(at 194.31 45.72 0)
+			(at 194.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6774,7 @@
 			)
 		)
 		(property "Height" "13.95"
-			(at -200.61 29.21 0)
+			(at -200.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6784,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at -300.61 29.21 0)
+			(at -300.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6794,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at -400.61 29.21 0)
+			(at -400.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6804,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at -500.61 29.21 0)
+			(at -500.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +6814,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1715721"
-			(at -600.61 29.21 0)
+			(at -600.61 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,16 +7216,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 53.34 0)
+		(at 191.77 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf2a3d72-30c1-4d51-bd1c-92c30ff6bfe9")
 		(property "Reference" "#PWR011"
-			(at 191.77 59.69 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 58.42 0)
+			(at 195.834 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 53.34 0)
+			(at 191.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 53.34 0)
+			(at 191.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 53.34 0)
+			(at 191.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7779,7 @@
 	)
 	(symbol
 		(lib_id "1715721(screw connector):1715721")
-		(at 179.07 50.8 90)
+		(at 177.8 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7788,7 +7787,7 @@
 		(dnp no)
 		(uuid "e7fb0f0e-c8ae-4b06-b0ce-5fbb724d7fe9")
 		(property "Reference" "J4"
-			(at 180.34 31.75 90)
+			(at 179.07 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7795,7 @@
 			)
 		)
 		(property "Value" "Jind"
-			(at 180.34 33.528 90)
+			(at 179.07 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7804,7 +7803,7 @@
 			)
 		)
 		(property "Footprint" "1715721(screw connector):1715721"
-			(at 273.99 34.29 0)
+			(at 272.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +7813,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1715721/pdf"
-			(at 373.99 34.29 0)
+			(at 372.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7823,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of pos"
-			(at 179.07 50.8 0)
+			(at 177.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7832,7 @@
 			)
 		)
 		(property "Height" "13.95"
-			(at 573.99 34.29 0)
+			(at 572.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +7842,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 673.99 34.29 0)
+			(at 672.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7852,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 773.99 34.29 0)
+			(at 772.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +7862,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 873.99 34.29 0)
+			(at 872.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +7872,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1715721"
-			(at 973.99 34.29 0)
+			(at 972.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
